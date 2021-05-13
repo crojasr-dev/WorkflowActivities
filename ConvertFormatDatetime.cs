@@ -41,8 +41,7 @@ namespace WorkflowActivities
             LocalTimeFromUtcTimeRequest timeZoneChangeRequest = new LocalTimeFromUtcTimeRequest()
 
             {
-                UtcTime = utcDateTime,
-                TimeZoneCode = int.Parse(settings["timezonecode"].ToString())
+                UtcTime = utcDateTime, TimeZoneCode = int.Parse(settings["timezonecode"].ToString())
             };
 
             LocalTimeFromUtcTimeResponse timeZoneResponse = service.Execute(timeZoneChangeRequest) as LocalTimeFromUtcTimeResponse;
