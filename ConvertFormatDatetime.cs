@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WorkflowActivities
 {
-    public class Class1
+    class ConvertFormatDatetime
     {
     }
 }
